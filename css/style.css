@@ -65,8 +65,13 @@ h3 {
 	height: 100px;
 }
 
-.menu ul li {
-	
+.menu {
+	width: 70%;
+}
+
+.menu ul {
+	display: flex;
+	justify-content: space-between;
 }
 
 .header-image {
